@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic-wk2</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -21,12 +20,14 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.0.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
         <project.build.source.encoding>UTF-8</project.build.source.encoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <jaxb.version>2.3.0</jaxb.version>
     </properties>
 
     <build>
@@ -47,6 +48,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/wojtekkoczwara/sfg-pet-clinic-wk2.git</developerConnection>
-    </scm>
+      <tag>sfg-pet-clinic-wk2-0.0.1</tag>
+  </scm>
 
 </project>
